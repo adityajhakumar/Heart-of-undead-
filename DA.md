@@ -2,7 +2,7 @@
 
 # Assignment  
 ## 22BEC1074, 
-##ADITYA KUMAR JHA
+#ADITYA KUMAR JHA
 
 ### 1. Serial Communication - Receiving a String and Displaying on LCD
 
