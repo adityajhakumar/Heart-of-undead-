@@ -1,4 +1,4 @@
-# README: Digital Assignment-1
+# Digital Assignment-1
 ## **Optical Fiber Communications (BECE318L)**
 ### **Semester: WIN 2024-25**
 
@@ -54,8 +54,55 @@ NA = \sqrt{n_1^2 - n_2^2}
 \]
 
 ### **3. Light Transmission in Optical Fiber**
-#### **Explanation with Diagram**
-(Include diagram showing total internal reflection)
+![image](https://github.com/user-attachments/assets/55bcd78a-8190-46c1-bf32-dce666313152)
+![image](https://github.com/user-attachments/assets/6dbfa6ff-7b0d-48da-a135-6b0b6ee5ef91)
+
+
+A light ray is launched into a fiber as shown in the diagram. The incident ray I1 enters the fiber at the angle \( \theta_a \). I1 is refracted upon entering the fiber and is transmitted to the core-cladding interface. The ray then strikes the core-cladding interface at the critical angle \( \theta_c \). I1 is totally reflected back into the core and continues to propagate along with the fiber. The incident ray I2 enters the fiber at an angle greater than \( \theta_a \). Again, I2 is refracted upon entering the fiber and is transmitted to the core-cladding interface. I2 strikes the core-cladding interface at an angle less than the critical angle \( \theta_c \). I2 is refracted into the cladding and is eventually lost. The light ray incident on the fiber core must be within the acceptance cone defined by the angle \( \theta_a \).
+
+The acceptance angle \( \theta_a \) is the maximum angle to the axis of the fiber that light entering the fiber is propagated. The value of the angle of acceptance \( \theta_a \) depends on fiber properties and transmission conditions. The acceptance angle is related to the refractive indices of the core, cladding, and medium surrounding the fiber. The numerical aperture (NA) is a measurement of the ability of an optical fiber to capture light. The NA is also used to define the acceptance cone of an optical fiber.
+
+The relationship between the acceptance angle and the numerical aperture is given by:
+\[
+NA = n_0 \times \sin \theta_a = \sqrt{n_1^2 - n_2^2}
+\]
+where:
+- \( n_1 \) = Refractive index of the core
+- \( n_2 \) = Refractive index of the cladding
+- \( n_0 \) = Refractive index of the surrounding medium
+
+#### **Numerical Calculation for Given Fiber Parameters:**
+
+An optical fiber has a numerical aperture of 0.20 and a cladding refractive index of 1.59. Determine:
+
+#### (a) The acceptance angle for the fiber in water (refractive index 1.33):
+\[
+\sin \alpha = \frac{NA}{n_0} = \frac{0.2}{1.33}
+\]
+\[
+\alpha = \sin^{-1} (0.15) = 8.65^\circ
+\]
+So, the acceptance angle in water is **8.65°**.
+
+#### (b) The critical angle at the core-cladding interface:
+To find \( \theta_c \), we first determine \( n_1 \):
+\[
+NA^2 = n_1^2 - n_2^2
+\]
+\[
+n_1^2 = NA^2 + n_2^2 = (0.2)^2 + (1.59)^2 = 2.5681
+\]
+\[
+n_1 = \sqrt{2.5681} = 1.602
+\]
+Now, using Snell's law:
+\[
+\sin \theta_c = \frac{n_2}{n_1} = \frac{1.59}{1.602} = 0.9925
+\]
+\[
+\theta_c = \sin^{-1} (0.9925) = 82.978^\circ
+\]
+So, the critical angle for the core-cladding interface is **82.978°**.
 
 ### **4. Optical Power Calculation**
 #### **Given Data:**
