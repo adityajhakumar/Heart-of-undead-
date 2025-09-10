@@ -19,7 +19,7 @@ Build a Retrieval-Augmented Generation (RAG) chatbot that ingests uploaded const
 
 ## 3. High-level architecture (flowchart)
 
-```User Upload (PDF/DOCX)
+User Upload (PDF/DOCX)
         ↓
   Text Extraction
         ↓
@@ -38,6 +38,7 @@ Text Cleaning & Segmentation
  Result: Summary / Answer + Citation
         ↓
  UI: Chat + Source Viewer
+
 
 ---
 
