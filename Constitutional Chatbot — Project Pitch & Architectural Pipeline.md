@@ -18,26 +18,7 @@ Build a Retrieval-Augmented Generation (RAG) chatbot that ingests uploaded const
 ---
 
 ## 3. High-level architecture (flowchart)
-
-User Upload (PDF/DOCX)
-        ↓
-  Text Extraction
-        ↓
-Text Cleaning & Segmentation
-        ↓
- Embedding Generator
-        ↓
-   VectorDB (FAISS/Pinecone/Weaviate)
-        ↓
-  Retriever + Reranker
-        ↓
-  Prompt Builder (context + question)
-        ↓
-       LLM (GPT-4 / LLaMA2 / Mistral)
-        ↓
- Result: Summary / Answer + Citation
-        ↓
- UI: Chat + Source Viewer
+<img width="1180" height="2380" alt="image" src="https://github.com/user-attachments/assets/c02a23e9-4c06-4b7b-a02a-affe065a51cc" />
 
 
 ---
