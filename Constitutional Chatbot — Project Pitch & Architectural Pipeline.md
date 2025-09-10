@@ -21,15 +21,15 @@ Build a Retrieval-Augmented Generation (RAG) chatbot that ingests uploaded const
 
 ```mermaid
 flowchart LR
-  A[User Upload: PDF / DOCX] --> B[Text Extraction]
+  A[User Upload<br/>PDF / DOCX] --> B[Text Extraction]
   B --> C[Text Cleaning & Segmentation]
   C --> D[Embedding Generator]
-  D --> E[VectorDB (FAISS / Pinecone / Weaviate)]
+  D --> E["VectorDB<br/>FAISS / Pinecone / Weaviate"]
   E --> F[Retriever + Ranking]
-  F --> G[Prompt Builder (context + question)]
-  G --> H[LLM (GPT-4 / LLaMA2 / Mistral)]
-  H --> I[Result: Summary / Answer + Citation]
-  I --> J[UI: Chat + Source Viewer]
+  F --> G[Prompt Builder<br/>(context + question)]
+  G --> H["LLM<br/>GPT-4 / LLaMA2 / Mistral"]
+  H --> I[Result:<br/>Summary / Answer + Citation]
+  I --> J[UI:<br/>Chat + Source Viewer]
   E --> K[Semantic Cache]
   K --> H
 ```
